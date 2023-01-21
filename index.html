@@ -1,0 +1,90 @@
+<html>
+    <head><title>student registration form 2</title>
+    <style>
+        div{
+            height:550px;
+            width:630px;
+            background-color: aqua;
+            margin-left: 100px;
+            color:black;
+            border:1px solid black;
+            
+
+        }
+        h2{
+           /* border:2px double black;*/
+            margin-top: 30px;
+           margin-right: 60px;
+           border-color: blue yellowgreen red green;
+           margin-left:60px ;
+           padding-top: 10px;
+           padding-left: 20px;
+           padding-inline-start: 100px;
+           padding-bottom: 10px;
+        
+           padding-right: 40px;
+           text-shadow: 1.5px 1.5px 4px rgb(182, 77, 135);
+           text-decoration: underline;
+           border-style: double;
+           border-width: 3px;
+           text-transform: capitalize;
+        
+        }
+        table{
+            margin-left:30px;
+            
+        }
+    </style></head>
+    <body>
+        <div><form>
+           <h2> Student Registration Form</h2>
+            <table>
+                <tr><td><label>Name :</label></td>
+                <td><input type="text" size="25" placeholder="Enter full name"></td></tr>
+                <tr><td><label>Father's Name :</label></td>
+                <td><input type="text" size="25"></td></tr>
+                <tr><td><label>Mother's Name :</label></td>
+                <td><input type="text" size="25"></td></tr>
+                <tr><td><label>Phone Number :</label></td>
+                <td><input type="phone number" size="25" maxlength="10"placeholder="017xxxxxxx"></td></tr>
+                <tr><td><label>Email :</label></td>
+                <td><input type="email" size="25" placeholder="sample@example.com"></td></tr>
+                <tr><td><label>Gender :</label></td>
+                <td><input type="radio" name="gender" value="male">male
+            <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender"value="other">other</td></tr>
+        <tr><td><label>Date of birth :</label></td>
+        <td><input type="text" value="day" size="3" maxlength="2" >-
+        <input type="text" value="month" size="3" maxlength="2" >-
+    <input type="text"value="year" size="3" maxlength="4">(dd-mm-yyyy)</td></tr>
+        <tr><td><label>Address :</label></td>
+        <td><input type="address" placeholder="street-House-Road-" size="35"></td></tr>
+        <tr><td><label>Blood Group :</label></td>
+        <td><select><option>O<sub>+ve</sub></option>
+        <option>A<sub>+ve</sub></option>
+    <option>AB<sub>+ve</sub></option>
+<option>B<sub>+ve</sub></option>
+<option>O<sub>-ve</sub></option>
+<option>A<sub>-ve</sub></option></select></td></tr>
+<tr><td><label>Department :</label></td>
+<td><input type="radio" name="Department" value="CSE">CSE
+<input type="radio" name="Department" value="EEE">EEE
+<input type="radio" name="Department" value="BBA">BBA</td></tr> 
+<tr><td><label>Course :</label></td>
+<td><input type="checkbox" name="course"value="C">C
+<input type="checkbox" name="course" value="C++">C++
+<input type="checkbox" name="course"value="Java">Java
+<input type="checkbox" name="course"value="AI">AI
+<input type="checkbox" name="course"value="Machine learning">Machine learning
+<input type="checkbox" name="course"value="Robotics">Robotics</td></tr>
+<tr><td><label>Photo :</label></td>
+<td><input type="file"></td></tr>
+
+
+<tr><td><a href="Submit">Submit</a>
+<button type="Reset">Reset</button></td></tr>
+
+            </table>
+        </form></div>
+    </body>
+</html>
